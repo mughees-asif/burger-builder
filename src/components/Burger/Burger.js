@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Burger.css'
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 
-const Burger = (props) => {
+const burger = (props) => {
 	return (
 		<div className={ classes.Burger }>
 			<BurgerIngredient type="bread-top" />
@@ -13,4 +13,4 @@ const Burger = (props) => {
 	);
 };
 
-export default Burger;
+export default burger;
